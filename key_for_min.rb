@@ -3,11 +3,17 @@
 
 def key_for_min_value(name_hash)
   
-  smallest_key =
-  smallest
+  keys = []
+  values = []
+  index = 0
   
   name_hash.each do | key, value |
-    
+    keys << key
+    values << value
   end
+  
+  smallest_value = values[0]
+  
+  values.each do 
 
 end
